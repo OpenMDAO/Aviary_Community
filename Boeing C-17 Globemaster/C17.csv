@@ -1,13 +1,4 @@
 # author: Jatin Soni
-# Airplane Name: Boeing C-17 Globemaster
-# Payload: 164,900 lbs (update cargo_mass entry to change)
-# Target Range: 2,400 nmi (update phase_info and mission:design:range to change)
-# Sources: https://www.af.mil/About-Us/Fact-Sheets/Display/Article/1529726/c-17-globemaster-iii/
-#          https://en.wikipedia.org/wiki/Boeing_C-17_Globemaster_III#Specifications_(C-17A) 
-#          For areas and sizes, 3-view images of aircraft and this tool were used: https://www.blocklayer.com/scale-fixereng 
-# To run this model, run: aviary run_mission --phase_info C17_mission.py C17.csv
-# If PyOptSparse is not installed, add "--optimizer SLSQP" to the end of the command above
-# To view the results, run "aviary dashboard C17"
 
 aircraft:crew_and_payload:num_flight_crew,2,unitless
 aircraft:crew_and_payload:cargo_mass,164900,lbm
