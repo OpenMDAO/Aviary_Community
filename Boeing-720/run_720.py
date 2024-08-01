@@ -87,7 +87,7 @@ phase_info = {
 }
 
 
-csv_path = "models/test_aircraft/B-720.csv"         #input custom .csv
+csv_path = "models/test_aircraft/Boeing-720.csv"         #input custom .csv
 prob = av.AviaryProblem()
 prob.load_inputs(csv_path, phase_info)
 prob.check_and_preprocess_inputs()
