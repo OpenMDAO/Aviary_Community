@@ -100,7 +100,7 @@ prob.add_design_variables()
 prob.add_objective(objective_type="mass", ref=-1e5)
 prob.setup()
 prob.set_initial_guesses()
-prob.run_aviary_problem(record_filename='level2_C500.db', suppress_solver_print=True, make_plots=True)
+prob.run_aviary_problem(record_filename='level2_C441.db', suppress_solver_print=True, make_plots=True)
 
 # All Model Inputs,Calculations, and Arrays
 # prob.model.list_inputs()                                
