@@ -1,7 +1,9 @@
 **Aircraft:** Gulfstream G550
 
 **Running the model:**
+
 From the command line 
+
 Run 'python G550_level1.py' for level 1 mission
 
 Run 'python G550_level2.py' for level 2 mission
