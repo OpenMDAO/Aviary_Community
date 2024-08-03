@@ -1,8 +1,11 @@
 **Aircraft:** Airbus A380
 
 **Running the model:**
+
 From the command line 
+
 Run 'python AirbusA380_level1.py' for level 1 mission
+
 Run 'python AirbusA380_level2.py' for level 2 mission
 
 **Engine deck:** GP7270_Aviary
